@@ -1,2 +1,2 @@
 # FVDBNet
- The source code of FVDBNet.
+ The source code of DECNet.
