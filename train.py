@@ -40,8 +40,8 @@ parser.add_argument('--resume', default=None, type=str, metavar='PATH', help='pa
 parser.add_argument('--data_set', type=int, default=1)
 parser.add_argument('-t', default=3, type=int, help='cut 30s to t(s)')
 
-parser.add_argument('--train_txt_path', default='/home/user/HCH/code/PPB/result/PPB_CIR_V_DB_rgb_112_3s_train_fold_0.txt', type=str, metavar='PATH', help='path to latest checkpoint')
-parser.add_argument('--test_txt_path', default='/home/user/HCH/code/PPB/result/PPB_CIR_V_DB_rgb_112_3s_test_fold_0.txt', type=str, metavar='PATH', help='path to latest checkpoint')
+parser.add_argument('--train_txt_path', default='PPB_CIR_V_DB_rgb_112_3s_train_fold_0.txt', type=str, metavar='PATH', help='path to latest checkpoint')
+parser.add_argument('--test_txt_path', default='PPB_CIR_V_DB_rgb_112_3s_test_fold_0.txt', type=str, metavar='PATH', help='path to latest checkpoint')
 parser.add_argument('--contrast', default='V-DB', type=str, help='若为true, 则DB全为0')
 #超参数
 parser.add_argument('--s_former_depth', default=1, type=int)
